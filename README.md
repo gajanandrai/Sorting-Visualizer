@@ -49,7 +49,9 @@ cd sorting-visualizer
 ---
 
 ## 📸 Screenshot
-![App Screenshot](https://raw.githubusercontent.com/gajanandrai/Sorting-Visualizer/main/screenshot.png)
+![App Screenshot](./screenshot.png)
+
+
 
 ---
 
