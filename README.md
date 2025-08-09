@@ -49,7 +49,7 @@ cd sorting-visualizer
 ---
 
 ## 📸 Screenshot
-![App Screenshot](./screenshot.png)
+![App Screenshot](Screenshot.png)
 
 
 
