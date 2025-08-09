@@ -35,14 +35,45 @@ Built using only **HTML**, **CSS**, and **JavaScript** – with animations, step
 **1. Clone the repository:**
 ```bash
 git clone https://github.com/gajanandrai/Sorting-Visualizer.git
+```
 
-# 2. Navigate to the project folder:
-cd sorting-visualizer
+**2. Navigate to the project folder:**
+```bash
+cd Sorting-Visualizer
+```
 
-# 3. Open index.html in your browser:
+**3. Open index.html in your browser:**
+- Simply double-click it, OR  
+- Use Live Server extension in VS Code for better experience
 
-Simply double-click it
+---
 
-Or use Live Server extension in VS Code for better experience
+## 📸 Screenshot
+![App Screenshot](screenshot.png)
 
-# Screenshot
+---
+
+## 📂 Folder Structure
+```
+Sorting-Visualizer/
+│
+├── index.html       # Main HTML file
+├── style.css        # CSS styling
+├── script.js        # JavaScript logic
+├── tick.mp3         # Tick sound
+├── success.mp3      # Completion sound
+├── screenshot.png   # Screenshot for README
+└── README.md        # Project documentation
+```
+
+---
+
+## 👨‍💻 Author
+- **Gajanand Rai** – [GitHub Profile](https://github.com/gajanandrai)
+
+---
+
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).
+
+✨ Feel free to fork or contribute to enhance this app!
