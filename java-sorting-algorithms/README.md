@@ -15,5 +15,6 @@ Each algorithm is implemented in the `SortingAlgorithms.java` file.
 2. Compile the program:
    ```bash
    javac SortingAlgorithms.java
-# Run the Program
-java SortingAlgorithms
+3. Run the program:
+   ```bash
+   java SortingAlgorithms
