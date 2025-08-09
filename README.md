@@ -39,23 +39,23 @@ git clone https://github.com/gajanandrai/Sorting-Visualizer.git
 
 **2. Navigate to the project folder:**
 ```bash
-cd Sorting-Visualizer
+cd sorting-visualizer
 ```
 
 **3. Open index.html in your browser:**
-- Simply double-click it, OR  
-- Use Live Server extension in VS Code for better experience
+- Simply double-click it  
+- Or use Live Server extension in VS Code for a better experience
 
 ---
 
 ## 📸 Screenshot
-![App Screenshot](screenshot.png)
+![App Screenshot](https://raw.githubusercontent.com/gajanandrai/Sorting-Visualizer/main/screenshot.png)
 
 ---
 
 ## 📂 Folder Structure
 ```
-Sorting-Visualizer/
+Sorting Visualizer/
 │
 ├── index.html       # Main HTML file
 ├── style.css        # CSS styling
@@ -63,6 +63,7 @@ Sorting-Visualizer/
 ├── tick.mp3         # Tick sound
 ├── success.mp3      # Completion sound
 ├── screenshot.png   # Screenshot for README
+├── LICENSE          # License file
 └── README.md        # Project documentation
 ```
 
