@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sorting Visualizer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Sorting Visualizer</h1>
+
+  <div class="controls">
+    <!-- Array Input -->
+    <input type="text" id="arrayInput" placeholder="Enter numbers separated by commas" />
+
+    <!-- Speed Control -->
+    <label for="speedRange">Speed:</label>
+    <input type="range" id="speedRange" min="10" max="500" value="100" />
+
+    <!-- Algorithm Selector -->
+    <select id="algorithmSelect">
+      <option value="bubble">Bubble Sort</option>
+      <option value="insertion">Insertion Sort</option>
+      <option value="selection">Selection Sort</option>
+      <option value="merge">Merge Sort</option>
+    </select>
+
+    <!-- Buttons -->
+    <button id="generate" onclick="generateArray()">Generate New Array</button>
+    <button id="visualize" onclick="startSorting()">Visualize Sorting</button>
+    <button id="pauseResumeBtn" onclick="togglePause()" style="display:none;">Pause</button> <!-- ✅ New -->
+  </div>
+
+  <!-- 🔄 Array info with step & pass counter -->
+  <div class="array-info">
+    <div id="current-array-display"></div>
+    <div id="step-counter">Steps: 0</div>
+    <div id="pass-counter">Passes: 0</div>
+  </div>
+
+  <!-- ✅ Completion message -->
+  <div id="complete-message" style="display:none; font-weight:bold; color:green; margin:10px;">✅ Sorting Complete!</div>
+
+  <!-- 🔢 Array bars -->
+  <div id="array-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

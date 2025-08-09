@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  margin: 20px;
+}
+
+.controls {
+  margin: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input, select {
+  padding: 8px;
+  margin: 5px;
+  font-size: 14px;
+}
+
+#array-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 400px;
+  margin: 20px auto;
+  width: 90%;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+/* 📦 Combined wrapper for array + steps + passes */
+.array-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 10px auto;
+  font-weight: bold;
+  font-size: 16px;
+  gap: 20px;
+}
+
+/* 🧮 Current array label */
+#current-array-display {
+  color: #333;
+  text-align: left;
+  flex: 1;
+}
+
+/* 🔢 Step counter style */
+#step-counter {
+  text-align: center;
+  flex: 1;
+}
+
+/* 🔁 Pass counter style */
+#pass-counter {
+  text-align: right;
+  flex: 1;
+}
+
+/* 📊 Bar styles with label below */
+.bar {
+  width: 20px;
+  margin: 2px;
+  background-color: #3498db;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.bar-value {
+  position: absolute;
+  top: 100%;
+  margin-top: 4px;
+}
